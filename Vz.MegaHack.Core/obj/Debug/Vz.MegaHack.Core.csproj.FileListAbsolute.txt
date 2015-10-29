@@ -1,0 +1,9 @@
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\bin\Debug\Vz.MegaHack.Core.dll
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\bin\Debug\Vz.MegaHack.Core.pdb
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\obj\Debug\Vz.MegaHack.Core.csprojResolveAssemblyReference.cache
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\obj\Debug\Vz.MegaHack.Core.dll
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\obj\Debug\Vz.MegaHack.Core.pdb
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\bin\Debug\Vz.MegaHack.Entities.dll
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\bin\Debug\Vz.MegaHack.Test.dll
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\bin\Debug\Vz.MegaHack.Entities.pdb
+D:\Hackathon\VzMegaHackathon\VzMegaHackathon\Vz.MegaHack.Core\bin\Debug\Vz.MegaHack.Test.pdb

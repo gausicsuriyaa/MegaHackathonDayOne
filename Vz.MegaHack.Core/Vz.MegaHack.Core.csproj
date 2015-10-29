@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,8 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentKPIBuilder.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vz.MegaHack.Entities\Vz.MegaHack.Entities.csproj">
+      <Project>{f36dfa1a-9864-48be-98ee-908f819e9ee1}</Project>
+      <Name>Vz.MegaHack.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vz.MegaHack.Test\Vz.MegaHack.Test.csproj">
+      <Project>{c76bda22-10c7-49b0-a6d2-a3d1bd9daa67}</Project>
+      <Name>Vz.MegaHack.Test</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

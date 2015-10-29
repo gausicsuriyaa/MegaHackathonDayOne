@@ -65,15 +65,25 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgentKPIScoreCard.aspx" />
     <Content Include="CenterView.aspx" />
+    <Content Include="Content\Scripts\agentKPIscorecard.js" />
     <Content Include="Content\Scripts\drilldown.js" />
     <Content Include="Content\Scripts\highcharts.js" />
     <Content Include="Content\Scripts\jquery-1.10.2.min.js" />
     <Content Include="Content\Scripts\jquery.layout.js" />
+    <Content Include="Content\Scripts\testChart.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentKPIScoreCard.aspx.cs">
+      <DependentUpon>AgentKPIScoreCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentKPIScoreCard.aspx.designer.cs">
+      <DependentUpon>AgentKPIScoreCard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CenterView.aspx.cs">
       <DependentUpon>CenterView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +100,20 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\Styles\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vz.MegaHack.Core\Vz.MegaHack.Core.csproj">
+      <Project>{659e2ff0-fc5b-4ac2-9e2e-c0851b58a971}</Project>
+      <Name>Vz.MegaHack.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vz.MegaHack.Entities\Vz.MegaHack.Entities.csproj">
+      <Project>{f36dfa1a-9864-48be-98ee-908f819e9ee1}</Project>
+      <Name>Vz.MegaHack.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vz.MegaHack.Test\Vz.MegaHack.Test.csproj">
+      <Project>{c76bda22-10c7-49b0-a6d2-a3d1bd9daa67}</Project>
+      <Name>Vz.MegaHack.Test</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
